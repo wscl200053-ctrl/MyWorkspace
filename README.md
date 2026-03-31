@@ -44,5 +44,11 @@ npm install
 # 4. 运行桌面开发环境 (首次运行需等待 Rust 编译)
 npm run tauri dev
 
+# 5. 打包成windows桌面软件
+npm run tauri build
+
+# 6. 打包成安卓手机软件
+npm run tauri android build
+
 🤝 贡献与开源许可
 本项目为个人全栈开发练习与自用工具，开源发布。欢迎提交 Issue 或 Pull Request 探讨交流！
